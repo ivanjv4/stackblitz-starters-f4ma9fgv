@@ -1,0 +1,168 @@
+/* ====== RESET BÁSICO ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffaf5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ====== HEADER ====== */
+header {
+  background: #FFD54F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header h1 {
+  color: #FF7043;
+  font-size: 1.5rem;
+}
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.btn {
+  background: #F48FB1;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #ec6f9f;
+}
+
+/* ====== HERO ====== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 3rem;
+  background: #FFF3E0;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text h2 {
+  font-size: 2.8rem;
+  color: #FF7043;
+  margin-bottom: 1rem;
+}
+.hero-text p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+.hero img {
+  max-width: 40%;
+  border-radius: 12px;
+}
+
+/* ====== SEÇÕES ====== */
+.section {
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.section h3 {
+  color: #FF7043;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+.section p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+/* ====== CARDS ====== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card h4 {
+  color: #F48FB1;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+/* ====== DEPOIMENTOS ====== */
+.testimonials {
+  background: #FFF3E0;
+  padding: 4rem 3rem;
+}
+.testimonial {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  font-style: italic;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ====== EQUIPE ====== */
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.team-member {
+  text-align: center;
+  width: 220px;
+}
+.team-member img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.team-member h4 {
+  color: #FF7043;
+  margin-bottom: 0.3rem;
+}
+
+/* ====== CTA FINAL ====== */
+.cta {
+  background: #F48FB1;
+  color: white;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.cta h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  background: #FF7043;
+  color: white;
+  padding: 2rem;
+  text-align
